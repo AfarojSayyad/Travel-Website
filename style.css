@@ -361,7 +361,8 @@ header .search-bar-container label:hover{
     color: #333;
 }
 .packages .box-container .box .content h3 i{
-    color: var(--orange)
+    color: var(--orange);
+    margin-right: 5px;
 }
 .packages .box-container .box .content p{
     font-size: 1.7rem;
@@ -427,7 +428,6 @@ header .search-bar-container label:hover{
     height: 25rem;/**/
     position: relative;
 }
-/*  */
 .gallery .box-container .box img{
     height: 100%;
     width: 100%;
