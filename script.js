@@ -74,7 +74,7 @@ var swiper = new Swiper(".brand-slider", {
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
-    },
+    }, 
     breakpoints: {
         450: {
           slidesPerView: 2,

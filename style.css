@@ -23,7 +23,7 @@
 
 html{
   font-size: 62.5%;
-  overflow-x: hidden;
+  overflow-x: hidden; 
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
 }
@@ -460,6 +460,7 @@ header .search-bar-container label:hover{
 /* review section */
 .review .review-slider{
     padding-bottom: 2rem;
+    overflow: hidden;
 }
 .review .box{
     padding: 2rem;
@@ -528,7 +529,9 @@ header .search-bar-container label:hover{
 /* brand section */
 .brand-container{
     text-align: center;
+    overflow: hidden;
 }
+
 /* footer section */
 .footer{
     background: #333;
@@ -537,11 +540,13 @@ header .search-bar-container label:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    justify-items: center;
 }
 .footer .box-container .box{
     padding: 1rem 0;
     flex: 1 1 25rem;
 }
+
 .footer .box-container .box h3{
     font-size: 2.5rem;
     padding:.7rem 0;
@@ -556,7 +561,7 @@ header .search-bar-container label:hover{
     display: block;
     font-size: 1.5rem;
     padding: .7rem 0;
-    color:#eee
+    color:#eee;
 }
 .footer .box-container .box a:hover{
     color: var(--orange);
